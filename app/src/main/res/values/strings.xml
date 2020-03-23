@@ -2,4 +2,5 @@
     <string name="app_name">GreenRoute</string>
     <string name="title_activity_route">Map</string>
     <string name="google_maps_key">AIzaSyAt_YF-0dcSocGGxznWNBx60sAfEbPUc2Q</string>
+    <string name="title_activity_maps2">Map</string>
 </resources>
