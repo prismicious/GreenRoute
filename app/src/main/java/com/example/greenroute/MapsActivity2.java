@@ -20,6 +20,7 @@ import com.google.maps.model.DirectionsLeg;
 import com.google.maps.model.DirectionsResult;
 import com.google.maps.model.DirectionsRoute;
 import com.google.maps.model.DirectionsStep;
+import com.google.maps.model.DistanceMatrix;
 import com.google.maps.model.EncodedPolyline;
 import com.google.maps.model.TravelMode;
 
