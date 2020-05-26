@@ -63,6 +63,7 @@
         android:layout_marginTop="107dp"
         android:layout_marginEnd="186dp"
         android:layout_marginRight="186dp"
+        android:alpha="0"
         android:background="@mipmap/questionmark"
         android:onClick="onButtonShowPopupWindowClick"
         android:textColor="#000000" />
@@ -113,7 +114,7 @@
     android:layout_alignParentStart="true"
     android:layout_alignParentLeft="true"
     android:layout_alignParentTop="true"
-    android:layout_marginStart="280dp"
+    android:layout_marginStart="285dp"
     android:layout_marginTop="52dp"
     android:text="km"
     android:textSize="14sp"
@@ -126,7 +127,7 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="280dp"
+        android:layout_marginStart="285dp"
         android:layout_marginTop="212dp"
         android:text="km"
         android:textSize="14sp"
@@ -139,7 +140,7 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="280dp"
+        android:layout_marginStart="285dp"
         android:layout_marginTop="372dp"
         android:text="km"
         android:textSize="14sp"
@@ -456,21 +457,22 @@
         android:id="@+id/r2_goButton"
         android:layout_width="50dp"
         android:layout_height="30dp"
-        android:layout_marginTop="280dp"
         android:layout_marginStart="240dp"
+        android:layout_marginTop="280dp"
         android:background="@drawable/button"
+        android:onClick="LaunchRoute2"
         android:text="Go!"
-        android:textColor="#FFFBFB"
-/>
+        android:textColor="#FFFBFB" />
+
     <Button
         android:id="@+id/r3_goButton"
         android:layout_width="50dp"
         android:layout_height="30dp"
-        android:layout_marginTop="440dp"
         android:layout_marginStart="240dp"
+        android:layout_marginTop="440dp"
         android:background="@drawable/button"
+        android:onClick="LaunchRoute3"
         android:text="Go!"
-        android:textColor="#FFFBFB"
-        />
+        android:textColor="#FFFBFB" />
 
 </RelativeLayout>

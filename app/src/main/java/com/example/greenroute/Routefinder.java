@@ -40,8 +40,6 @@ public class Routefinder extends AppCompatActivity {
 
     }
 
-
-
     public void testIntent(View view)
     {
         addressText = findViewById(R.id.routefinder_address);
